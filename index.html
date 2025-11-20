@@ -72,8 +72,8 @@
                 <div class="hidden md:flex space-x-8">
                     <a href="#" class="text-slate-600 hover:text-primary transition-colors font-medium">Home</a>
                     <a href="#" class="text-primary font-medium">About</a>
-                    <a href="#" class="text-slate-600 hover:text-primary transition-colors font-medium">Services</a>
-                    <a href="#" class="text-slate-600 hover:text-primary transition-colors font-medium">Contact</a>
+                    <a href="#services" class="text-slate-600 hover:text-primary transition-colors font-medium">Services</a>
+                    <a href="#contact-form" class="text-slate-600 hover:text-primary transition-colors font-medium">Contact</a>
                 </div>
                 <div class="md:hidden">
                     <button id="mobile-menu-btn" class="text-slate-600 hover:text-primary">
@@ -87,8 +87,8 @@
             <div class="px-4 pt-2 pb-4 space-y-1">
                 <a href="#" class="block px-3 py-2 text-slate-600 hover:text-primary hover:bg-slate-50 rounded-md">Home</a>
                 <a href="#" class="block px-3 py-2 text-primary bg-slate-50 rounded-md">About</a>
-                <a href="#" class="block px-3 py-2 text-slate-600 hover:text-primary hover:bg-slate-50 rounded-md">Services</a>
-                <a href="#" class="block px-3 py-2 text-slate-600 hover:text-primary hover:bg-slate-50 rounded-md">Contact</a>
+                <a href="#services" class="block px-3 py-2 text-slate-600 hover:text-primary hover:bg-slate-50 rounded-md">Services</a>
+                <a href="#contact-form" class="block px-3 py-2 text-slate-600 hover:text-primary hover:bg-slate-50 rounded-md">Contact</a>
             </div>
         </div>
     </nav>
@@ -163,6 +163,61 @@
                         We uphold the highest standards of honesty and transparency in all our partnerships and advisory services.
                     </p>
                 </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section (New) -->
+    <section id="services" class="py-20 bg-slate-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16 reveal">
+                <span class="text-primary font-semibold tracking-wider uppercase text-sm">What We Do</span>
+                <h2 class="text-3xl md:text-4xl font-bold text-slate-900 mt-2 mb-4">Our Expertise</h2>
+                <p class="text-slate-600 max-w-2xl mx-auto">Comprehensive educational solutions tailored to your unique journey.</p>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-8 mb-12">
+                <!-- Service 1 -->
+                <div class="bg-white p-8 rounded-2xl shadow-sm hover:shadow-xl transition-all duration-500 ease-spring border border-slate-100 group reveal">
+                    <div class="w-12 h-12 bg-blue-50 rounded-lg flex items-center justify-center text-primary mb-6 group-hover:bg-primary group-hover:text-white transition-colors duration-300">
+                        <i data-lucide="compass" class="h-6 w-6"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-slate-900 mb-3">Admissions Consulting</h3>
+                    <p class="text-slate-600 mb-4">Expert guidance for university applications, essays, and interviews to secure your spot.</p>
+                    <a href="services.html" class="text-primary font-semibold hover:text-blue-700 inline-flex items-center group-hover:translate-x-1 transition-transform">
+                        Learn More <i data-lucide="arrow-right" class="ml-1 h-4 w-4"></i>
+                    </a>
+                </div>
+
+                <!-- Service 2 -->
+                <div class="bg-white p-8 rounded-2xl shadow-sm hover:shadow-xl transition-all duration-500 ease-spring border border-slate-100 group reveal" style="transition-delay: 100ms">
+                    <div class="w-12 h-12 bg-purple-50 rounded-lg flex items-center justify-center text-purple-600 mb-6 group-hover:bg-purple-600 group-hover:text-white transition-colors duration-300">
+                        <i data-lucide="briefcase" class="h-6 w-6"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-slate-900 mb-3">Career Planning</h3>
+                    <p class="text-slate-600 mb-4">Strategic career mapping and professional development to launch your future.</p>
+                    <a href="services.html" class="text-purple-600 font-semibold hover:text-purple-700 inline-flex items-center group-hover:translate-x-1 transition-transform">
+                        Learn More <i data-lucide="arrow-right" class="ml-1 h-4 w-4"></i>
+                    </a>
+                </div>
+
+                <!-- Service 3 -->
+                <div class="bg-white p-8 rounded-2xl shadow-sm hover:shadow-xl transition-all duration-500 ease-spring border border-slate-100 group reveal" style="transition-delay: 200ms">
+                    <div class="w-12 h-12 bg-orange-50 rounded-lg flex items-center justify-center text-orange-600 mb-6 group-hover:bg-orange-600 group-hover:text-white transition-colors duration-300">
+                        <i data-lucide="globe" class="h-6 w-6"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-slate-900 mb-3">Global Strategy</h3>
+                    <p class="text-slate-600 mb-4">Helping institutions expand their reach and build international partnerships.</p>
+                    <a href="services.html" class="text-orange-600 font-semibold hover:text-orange-700 inline-flex items-center group-hover:translate-x-1 transition-transform">
+                        Learn More <i data-lucide="arrow-right" class="ml-1 h-4 w-4"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="text-center reveal">
+                <a href="/IdealTechnos/Ideal/services.html" class="inline-flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-full text-white bg-primary hover:bg-blue-700 md:py-4 md:text-lg md:px-10 transition-all transform hover:scale-105 shadow-lg hover:shadow-xl">
+                    View All Services
+                </a>
             </div>
         </div>
     </section>
